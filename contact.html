@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My contact info</title>
+</head>
+
+<body>
+  <h2>I can be reached at:</h2>
+  <ul>
+    <p>Phone: (520)000-0000</p>
+    <p>Email: sukhbir@sukhbir.singh</p>
+    <p>Email 2: sukhbir@sukhbir.singh</p>
+  </ul>
+  <br>
+  <br>
+  <h2>You can also contact me using the form below</h2>
+  <form action="mailto:sukhbir85@gmail.com" method="post" enctype="text/plain">
+    <label> Your Name </label>
+    <input type="text" value=""> <br>
+    <label for="">Gender</label> <br>
+    <!-- The name attribute for 'radio'
+     is what binds the two radio buttons together -->
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="">Female</label><br>
+    <br>
+    <label>Your Email</label>
+    <input type="email" name="Your Email"> <br>
+    <label>Your Message</label> <br>
+    <textarea name="msg" id="" cols="50" rows="5"></textarea> <br>
+
+    <label for="start">Date:</label>
+    <input type="date" id="start" name="Submit Date" value="2020-07-22" min="2020-01-01" max="2021-12-31">
+    <br>
+    <label>Do you want to be added to the list?</label>
+    <input type="checkbox" checked> <br><br>
+    <input type="submit" value="Submit Request">
+  </form>
+</body>
+
+</html>
